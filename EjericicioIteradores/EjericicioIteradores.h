@@ -27,7 +27,7 @@ protected:
 	{
 		this->Text = L"EjericicioIteradores";
 		tbxEntrada.Create(WS_EX_CLIENTEDGE, NULL, WS_CHILD | WS_TABSTOP | WS_VISIBLE | ES_AUTOHSCROLL | ES_LEFT | ES_WINNORMALCASE, 12, 7, 285, 25, hWnd, 1000);
-		btCalcular.Create(NULL, L"Suma", WS_CHILD | WS_TABSTOP | WS_VISIBLE | BS_PUSHBUTTON | BS_CENTER | BS_VCENTER, 309, 7, 95, 28, hWnd, 1001);
+		btCalcular.Create(NULL, L"Multiplicacion", WS_CHILD | WS_TABSTOP | WS_VISIBLE | BS_PUSHBUTTON | BS_CENTER | BS_VCENTER, 309, 7, 95, 28, hWnd, 1001);
 		tbxSalida.Create(WS_EX_CLIENTEDGE, NULL, WS_CHILD | WS_TABSTOP | WS_VISIBLE | ES_AUTOHSCROLL | ES_READONLY | ES_LEFT | ES_WINNORMALCASE, 415, 8, 116, 25, hWnd, 1002);
 		fontArial014A.Create(L"Arial", 14, false, false, false, false);
 		tbxEntrada.Font = fontArial014A;

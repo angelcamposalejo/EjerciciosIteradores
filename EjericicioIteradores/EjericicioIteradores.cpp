@@ -14,11 +14,11 @@ void EjericicioIteradores::btCalcular_Click(Win::Event& e)
 {
 	vector<double>entrada;
 	Sys::Convert::ToVector(tbxEntrada.Text, entrada);
-	double sum = 0.0;
+	double mult = 1.0;
 	for (vector<double>::iterator i = entrada.begin(); i != entrada.end(); i++)
 	{
-		sum += *i;
+		mult *= *i;
 	}
-	tbxSalida.DoubleValue = sum;
+	tbxSalida.DoubleValue = mult;
 }
 
